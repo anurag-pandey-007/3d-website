@@ -1,6 +1,6 @@
 var crsr = document.querySelector("#cursor");
 var blur = document.querySelector("#cursor-blur");
-alert("JavaScript file is connected");
+alert("JavaScript File is connected");
 
 document.addEventListener("mousemove", function (dets) {
   crsr.style.left = dets.x + "px";
